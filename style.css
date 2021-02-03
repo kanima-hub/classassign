@@ -1,0 +1,157 @@
+#top-bar {
+  wiidth: 1200px;
+  height: 100px;
+   margin-bottom: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+#logo {
+ 
+ 
+}
+#main-menu {
+  wiidth: 1200px;
+  height: 70px;
+  background-color: blue;
+   margin-top: 30px;
+   text-align: center;
+}
+.menus {
+  text-decoration: none;
+  border-right: 1px white solid;
+  padding: 0 15px 0 15px;
+  position: relative;
+  top: 23px;
+  color: white;
+  font-weight: bold;
+  
+}
+.no-border {
+  border: none;
+}
+#main-page-container {
+  
+}
+#breadcrumb {
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+  top: -20px;
+}
+#breadcrumb img {
+  width: 100%;
+ margin-top: 0;
+ 
+}
+#breadcrumb-text {
+  position: absolute;
+  top: 50px;
+  width: 70%;
+  transition: transform .2s;
+  margin-left: 14%; 
+  background-color: black;
+  opacity: 0.8;
+  color: beige;
+  padding: 10px 20px;
+}
+#breadcrumb-text:hover {
+  background-color: white;
+  opacity: 1;
+  border: 3px blue solid;
+  transform: scale(1.1);
+  color: blue;
+
+}
+#breadcrumb-text p {
+  font-size: 24px;
+}
+#breadcrumb-button{
+  background-color: blue;
+  width: 250px;
+  border: none;
+  padding: 16px;
+  border-radius: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+.services {
+  width: 28%;
+   transition: transform .2s;
+  text-align: center;
+  border: 4px blue solid;
+  height: 360px;
+  float: left;
+  margin-right: 12px;
+}
+.services:hover {
+  transform: scale(1.1);
+}
+#services-container {
+  margin: 0 auto;
+  padding-left: 13%;
+}
+.clear {
+  clear: both;
+}
+#time-is-money {
+  font-size: 45px;
+  background-color: blue;
+  height: 300px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+#time-is-money button {
+  background-color: rgb(21, 21, 58);
+  width: 350px;
+  border: none;
+  padding: 16px;
+  border-radius: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+#why-us-container {
+  padding-left: 13%;
+  margin: 34px 0;
+}
+.why-us {
+  height: 220px;
+  width: 40%;
+  float: left;
+}
+.bg-black {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: -35px;
+    padding: 23px 16px;
+}
+h4 {
+  font-size: 25px;
+}
+
+#footer-div {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+
+}
+.footer-items {
+  float: left;
+  margin: 30px 29px;
+  font-size: 23px;
+}
